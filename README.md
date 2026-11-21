@@ -2,10 +2,7 @@
 ### Step 1: welches File soll benutzt werden.
 folgende Files stehen momentan zur Verfügung: 
 
-- **German ```de.json```**
-- **Philosophien des SWR3-Radios ```philo.json```**
-- **Chuck Norris Facts ```chuck.json```**
-- **eine Kombi aus Facts, Philosophie und Glückwünschen ```kombi.json```**
+- **Philosophien des SWR3-Radios ```philo.json```
 
 
 ### Step 2: Change config
@@ -28,13 +25,11 @@ Change it to:
     module: "compliments",
     position: "bottom_bar", 
     config: {
-      remoteFile: "https://raw.githubusercontent.com/Hubobel/MagicMirrorCompliments/main/kombi.json",
+      remoteFile: "https://raw.githubusercontent.com/grimsi/MagicMirrorCompliments/main/philo.json",
       specialDayUnique: true,
       classes: "thin medium bright"
     },
 ```
-
-Chuck Norris Facts https://www.roundhousekick.de
 Filosophie: https://www.swr3.de
 
 # Visit MagicMirror!
